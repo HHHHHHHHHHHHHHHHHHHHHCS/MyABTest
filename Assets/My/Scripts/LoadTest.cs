@@ -30,19 +30,28 @@ public class LoadTest : MonoBehaviour
         //5
         //UnityWebRequest uwr = UnityWebRequest.Get(path);
 
-        Caching.CleanCache();
+        //Caching.CleanCache();
         //WWW www = WWW.LoadFromCacheOrDownload(@"http://localhost/ab1",0);
         //yield return www;
         //Debug.Log(www.assetBundle.GetAllAssetNames()[0]);
 
 
 
-        UnityWebRequest uwr = UnityWebRequest.GetAssetBundle(@"http://localhost/ab1");
+        //UnityWebRequest uwr = UnityWebRequest.GetAssetBundle(@"http://localhost/ab1");
+        //yield return uwr.Send();
+        //AssetBundle ab = DownloadHandlerAssetBundle.GetContent(uwr);//(uwr.downloadHandler as DownloadHandlerAssetBundle).assetBundle;//
+        //Debug.Log(ab.GetAllAssetNames()[0]);
 
-        yield return uwr.Send();
 
-        AssetBundle ab = DownloadHandlerAssetBundle.GetContent(uwr);//(uwr.downloadHandler as DownloadHandlerAssetBundle).assetBundle;//
+        AssetBundle mainfestAB = AssetBundle.LoadFromFile("AB/ab1");
+        AssetBundleManifest abm = mainfestAB.LoadAsset<AssetBundleManifest>("AssetBundleMainfest");
+        foreach(string _name in abm.GetAllAssetBundles())
+        {
+            print(_name);
+            AssetBundle.LoadFromFile("AB/" + _name);
+        }
+        yield break;
 
-        Debug.Log(ab.GetAllAssetNames()[0]);
+
     }
 }
