@@ -43,9 +43,20 @@ public class LoadTest : MonoBehaviour
         //Debug.Log(ab.GetAllAssetNames()[0]);
 
 
-        AssetBundle mainfestAB = AssetBundle.LoadFromFile("AB/ab1");
-        AssetBundleManifest abm = mainfestAB.LoadAsset<AssetBundleManifest>("AssetBundleMainfest");
-        foreach(string _name in abm.GetAllAssetBundles())
+        AssetBundle objAB = AssetBundle.LoadFromFile("AB/gameobjects1");
+        AssetBundle sprAB = AssetBundle.LoadFromFile("AB/sprites1");
+        AssetBundle matAB = AssetBundle.LoadFromFile("AB/materials1");
+
+
+        foreach(var item in objAB.LoadAllAssets())
+        {
+            Instantiate(item);
+        }
+        Debug.Log(objAB);
+        AssetBundleManifest manifest = objAB.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
+        Debug.Log(manifest);
+        string[] dependencies = manifest.GetAllAssetBundles(); //Pass the name of the bundle you want the dependencies for.
+        foreach (string _name in dependencies)
         {
             print(_name);
             AssetBundle.LoadFromFile("AB/" + _name);

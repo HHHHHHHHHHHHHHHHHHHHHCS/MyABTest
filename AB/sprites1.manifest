@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3630684485
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0dff86d1b8c4cb07c3e0199f6bffc316
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4cd0a5558493b0679e071c141fc729a3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/My/Textures/ButtonAcceleratorOverSprite.png
+- Assets/My/Textures/BackgroundNavyGridSprite.png
+- Assets/My/Textures/CratePinkGridSprite.png
+- Assets/My/Textures/ButtonBrakeOverSprite.png
+- Assets/My/Textures/BackgroundGreyGridSprite.png
+- Assets/My/Textures/ButtonArrowOverSprite.png
+- Assets/My/Textures/ButtonThumbstickOverSprite.png
+Dependencies: []

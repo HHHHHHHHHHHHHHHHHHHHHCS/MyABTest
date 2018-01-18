@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 3718574608
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6f949d1f06a357d083e80d90899ffd62
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc983a3149e5fb03ce027e70c7a1a559
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/My/Materials/M4.mat
+- Assets/My/Materials/M3.mat
+- Assets/My/Materials/M2.mat
+- Assets/My/Materials/M5.mat
+- Assets/My/Materials/M1.mat
+Dependencies:
+- G:/MyUnity/MyABTest/AB/sprites1
