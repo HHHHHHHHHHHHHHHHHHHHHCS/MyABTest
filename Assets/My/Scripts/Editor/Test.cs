@@ -14,7 +14,7 @@ public class Test : MonoBehaviour
         {
             Directory.CreateDirectory(dir);
         }
-        BuildPipeline.BuildAssetBundles(dir, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        BuildPipeline.BuildAssetBundles(dir, BuildAssetBundleOptions.UncompressedAssetBundle, BuildTarget.StandaloneWindows64);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
         Debug.Log("打包完毕！！！");

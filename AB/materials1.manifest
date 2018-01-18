@@ -3,7 +3,7 @@ CRC: 3718574608
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6f949d1f06a357d083e80d90899ffd62
+    Hash: c3575947497361354b8d8a760d1c5672
   TypeTreeHash:
     serializedVersion: 2
     Hash: cc983a3149e5fb03ce027e70c7a1a559
@@ -22,4 +22,4 @@ Assets:
 - Assets/My/Materials/M5.mat
 - Assets/My/Materials/M1.mat
 Dependencies:
-- G:/MyUnity/MyABTest/AB/sprites1
+- E:/MyUnityProject/MyABTest/AB/sprites1

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3997952991
+CRC: 2174909811
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 53443a1c83e73482650ae47e00167d1c
+    Hash: 3d00922699c512da5b07c3e671bfdfbe
   TypeTreeHash:
     serializedVersion: 2
     Hash: 31d6cfe0d16ae931b73c59d7e0c089c0
@@ -12,4 +12,4 @@ ClassTypes: []
 Assets:
 - Assets/My/Scenes/main.unity
 Dependencies:
-- G:/MyUnity/MyABTest/AB/ab1
+- E:/MyUnityProject/MyABTest/AB/ab1

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2430322951
+CRC: 1826003687
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,15 +7,15 @@ AssetBundleManifest:
       Dependencies:
         Dependency_0: ab1
     Info_1:
-      Name: ab1
+      Name: sprites1
       Dependencies: {}
     Info_2:
+      Name: ab1
+      Dependencies: {}
+    Info_3:
       Name: materials1
       Dependencies:
         Dependency_0: sprites1
-    Info_3:
-      Name: sprites1
-      Dependencies: {}
     Info_4:
       Name: gameobjects1
       Dependencies:

@@ -3,7 +3,7 @@ CRC: 4245450990
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f635fb0106e587809b58431b89839767
+    Hash: 553e0a226844dd757f7756c144feeb3c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 38726c06769622599c93cfb08b008b8f
@@ -26,4 +26,4 @@ Assets:
 - Assets/My/Prefabs/Obj1.prefab
 - Assets/My/Prefabs/Obj3.prefab
 Dependencies:
-- G:/MyUnity/MyABTest/AB/materials1
+- E:/MyUnityProject/MyABTest/AB/materials1
